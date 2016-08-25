@@ -1,0 +1,14 @@
+[user]
+    name = Masahiro Nagae
+    email = two.big.suns@gmail.com
+[core]
+    editor = vim
+    pager = less -r
+[color]
+    ui = auto
+[merge]
+    tool = vimdiff
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
