@@ -288,7 +288,6 @@ set showcmd
 set showmatch
 set matchpairs=(:),{:},[:],<:>
 set title
-set cursorline
 set colorcolumn=80
 set ruler
 set laststatus=2
