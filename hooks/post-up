@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Install Oh My Fish
+[ ! -d ~/.local/share/omf ] && curl -L http://get.oh-my.fish | fish
