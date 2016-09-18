@@ -1,5 +1,6 @@
-# nodebrew
-set -x PATH $PATH $HOME/.nodebrew/current/bin
+# anyenv
+set -x PATH $PATH $HOME/.anyenv/bin
+status --is-interactive; and source (anyenv init -|psub)
 
 # peco
 function fish_user_key_bindings
