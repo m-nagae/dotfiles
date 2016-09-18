@@ -1,4 +1,10 @@
 #!/bin/bash
 
+# Install Brewfile
+[ ! -d ~/Brewfile ] && git clone https://github.com/m-nagae/Brewfile.git ~/Brewfile
+
 # Install Oh My Fish
 [ ! -d ~/.local/share/omf ] && curl -L http://get.oh-my.fish | fish
+
+# Install anyenv
+[ ! -d ~/.anyenv ] && git clone https://github.com/riywo/anyenv ~/.anyenv
