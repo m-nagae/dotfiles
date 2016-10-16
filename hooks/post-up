@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Install Oh My Fish
-[ ! -d ~/.local/share/omf ] && curl -L http://get.oh-my.fish | fish
+# Install fisherman
+[ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
