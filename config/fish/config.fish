@@ -9,7 +9,6 @@ function fish_user_key_bindings
     bind \cr 'peco_select_history (commandline -b)'
 end
 
-# Typetalk
-if test -f ~/Dropbox/typetalk.fish
-    source ~/Dropbox/typetalk.fish
-end
+# direnv
+eval (direnv hook fish)
+set -x EDITOR vim
