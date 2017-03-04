@@ -1,12 +1,4 @@
-﻿" Initialize {{{
-"
-if &compatible
-    set nocompatible
-endif
-" }}}
-
-" neobundle.vim {{{
-"
+﻿" neobundle.vim {{{
 " Note: Skip initialization for vim-tiny or vim-small.
 if !1 | finish | endif
 
@@ -65,20 +57,16 @@ NeoBundleCheck
 " }}}
 
 " Plugins {{{1
-"
 " altercation/vim-colors-solarized {{{
-"
 let g:solarized_termcolors = 256
 let g:solarized_termtrans = 1
 " }}}
 
 " elzr/vim-json {{{
-"
 let g:vim_json_syntax_conceal = 0
 " }}}
 
 " itchyny/lightline.vim {{{2
-"
 let g:lightline = {
             \ 'colorscheme': 'solarized',
             \ 'mode_map': { 'c': 'NORMAL' },
@@ -142,7 +130,6 @@ endfunction
 " }}}
 
 " Shougo/neocomplete.vim {{{2
-"
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
@@ -229,7 +216,6 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 " }}}
 
 " Shougo/neosnippet {{{2
-"
 "" Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -251,13 +237,11 @@ endif
 " }}}
 
 " Encoding {{{
-"
 set encoding=utf-8
 set fileencoding=utf-8
 " }}}
 
 " Search {{{
-"
 set hlsearch
 set ignorecase
 set smartcase
@@ -266,7 +250,6 @@ nnoremap <silent><ESC><ESC> :nohlsearch<CR>
 " }}}
 
 " Indent {{{
-"
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -276,7 +259,7 @@ set cindent
 " }}}
 
 " Display {{{
-"
+syntax on
 set number
 set wrap
 set showbreak=...
@@ -289,13 +272,11 @@ set ruler
 set laststatus=2
 set list
 set listchars=tab:>-,trail:·,eol:↲
-syntax on
 set background=dark
 colorscheme solarized
 " }}}
 
 " Edit {{{
-"
 set autoread
 set backspace=indent,eol,start
 set wildmenu
@@ -306,7 +287,6 @@ set foldmethod=marker
 " }}}
 
 " Backup {{{
-"
 silent !mkdir $HOME/.vim-backup > /dev/null 2>&1
 set backup
 set backupdir=$HOME/.vim-backup
