@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# Setup .ssh
+[ ! -e ~/.ssh ] && ln -s ~/Dropbox/.ssh ~/.ssh
+
 # Install fisherman
 [ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
 # Install anyenv
 [ ! -d ~/.anyenv ] && git clone https://github.com/riywo/anyenv ~/.anyenv
+
+echo Done hooks/post-up
