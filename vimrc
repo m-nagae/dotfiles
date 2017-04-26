@@ -74,57 +74,57 @@ let g:lightline = {
             \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ] ]
             \ },
             \ 'component_function': {
-            \   'modified': 'MyModified',
-            \   'readonly': 'MyReadonly',
-            \   'fugitive': 'MyFugitive',
-            \   'filename': 'MyFilename',
-            \   'fileformat': 'MyFileformat',
-            \   'filetype': 'MyFiletype',
-            \   'fileencoding': 'MyFileencoding',
-            \   'mode': 'MyMode',
+            \   'modified': 'LightlineModified',
+            \   'readonly': 'LightlineReadonly',
+            \   'fugitive': 'LightlineFugitive',
+            \   'filename': 'LightlineFilename',
+            \   'fileformat': 'LightlineFileformat',
+            \   'filetype': 'LightlineFiletype',
+            \   'fileencoding': 'LightlineFileencoding',
+            \   'mode': 'LightlineMode',
             \ },
-            \ 'separator': { 'left': '⮀', 'right': '⮂' },
-            \ 'subseparator': { 'left': '⮁', 'right': '⮃' }
+            \ 'separator': { 'left': '', 'right': '' },
+            \ 'subseparator': { 'left': '', 'right': '' }
             \ }
 
-function! MyModified()
+function! LightlineModified()
     return &ft =~ 'help\|vimfiler\|gundo' ? '' : &modified ? '+' : &modifiable ? '' : '-'
 endfunction
 
-function! MyReadonly()
-    return &ft !~? 'help\|vimfiler\|gundo' && &readonly ? '⭤' : ''
+function! LightlineReadonly()
+    return &ft !~? 'help\|vimfiler\|gundo' && &readonly ? '' : ''
 endfunction
 
-function! MyFilename()
-    return ('' != MyReadonly() ? MyReadonly() . ' ' : '') .
+function! LightlineFilename()
+    return ('' != LightlineReadonly() ? LightlineReadonly() . ' ' : '') .
                 \ (&ft == 'vimfiler' ? vimfiler#get_status_string() :
                 \  &ft == 'unite' ? unite#get_status_string() :
                 \  &ft == 'vimshell' ? vimshell#get_status_string() :
                 \ '' != expand('%:t') ? expand('%:t') : '[No Name]') .
-                \ ('' != MyModified() ? ' ' . MyModified() : '')
+                \ ('' != LightlineModified() ? ' ' . LightlineModified() : '')
 endfunction
 
-function! MyFugitive()
+function! LightlineFugitive()
     if &ft !~? 'vimfiler\|gundo' && exists("*fugitive#head")
-        let _ = fugitive#head()
-        return strlen(_) ? '⭠ '._ : ''
+        let branch = fugitive#head()
+        return branch !=# '' ? ''.branch : ''
     endif
     return ''
 endfunction
 
-function! MyFileformat()
+function! LightlineFileformat()
     return winwidth(0) > 70 ? &fileformat : ''
 endfunction
 
-function! MyFiletype()
-    return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype : 'no ft') : ''
+function! LightlineFiletype()
+    return winwidth(0) > 70 ? (&filetype !=# '' ? &filetype : 'no ft') : ''
 endfunction
 
-function! MyFileencoding()
-    return winwidth(0) > 70 ? (strlen(&fenc) ? &fenc : &enc) : ''
+function! LightlineFileencoding()
+    return winwidth(0) > 70 ? (&fenc !=# '' ? &fenc : &enc) : ''
 endfunction
 
-function! MyMode()
+function! LightlineMode()
     return winwidth(0) > 60 ? lightline#mode() : ''
 endfunction
 " }}}
