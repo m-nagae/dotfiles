@@ -1,12 +1,6 @@
 oh-my-fish/theme-agnoster
-fisherman/ansible-completion
-fisherman/autoenvstack
-oh-my-fish/plugin-aws
 0rax/fish-bd
-oh-my-fish/plugin-brew
-oh-my-fish/plugin-cask
 oh-my-fish/plugin-direnv
-fisherman/docker-completion
 fisherman/done
 fisherman/getopts
 fisherman/humanize_duration
