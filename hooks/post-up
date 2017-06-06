@@ -3,9 +3,6 @@
 # Setup .ssh
 [ ! -e ~/.ssh ] && ln -s ~/Dropbox/.ssh ~/.ssh
 
-# Install anyenv
-[ ! -d ~/.anyenv ] && git clone https://github.com/riywo/anyenv ~/.anyenv
-
 # Install fisherman
 [ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
