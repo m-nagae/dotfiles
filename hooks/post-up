@@ -5,5 +5,3 @@
 
 # Install fisherman
 [ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
-
-echo Done hooks/post-up
