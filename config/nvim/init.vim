@@ -95,6 +95,29 @@ function! LightlineMode()
 endfunction
 " }}}
 
+" Editor {{{
+" Appearance {{{
+set laststatus=2
+set list
+set listchars=tab:>-,trail:·,eol:↲
+set number
+set ruler
+set showbreak=...
+set showcmd
+set showmatch
+set title
+set wrap
+" }}}
+
+" Behaviour {{{
+set autoread
+set backspace=indent,eol,start
+set clipboard=unnamed
+set foldenable
+set foldmethod=marker
+set wildmenu
+" }}}
+
 " Encoding {{{
 set encoding=utf-8
 set fileencoding=utf-8
@@ -114,32 +137,11 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-set cindent
+set formatoptions+=mM
 " }}}
 
-" Display {{{
-syntax on
-set number
-set wrap
-set showbreak=...
-set showcmd
-set showmatch
-set matchpairs=(:),{:},[:],<:>
-set title
-set ruler
-set laststatus=2
-set list
-set listchars=tab:>-,trail:·,eol:↲
+" Color Scheme {{{
 set background=dark
 colorscheme solarized
 " }}}
-
-" Edit {{{
-set autoread
-set backspace=indent,eol,start
-set wildmenu
-set formatoptions+=mM
-set clipboard=unnamed
-set foldenable
-set foldmethod=marker
 " }}}
