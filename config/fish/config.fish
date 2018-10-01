@@ -1,4 +1,4 @@
-set -x EDITOR vim
+set -x EDITOR nvim
 
 # peco
 function fish_user_key_bindings

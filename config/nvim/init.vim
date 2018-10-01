@@ -10,13 +10,12 @@ if dein#load_state('~/.cache/dein')
 
     call dein#add('~/.cache/dein')
     call dein#add('altercation/vim-colors-solarized')
-    call dein#add('editorconfig/editorconfig-vim')
-    call dein#add('elzr/vim-json')
+    call dein#add('bronson/vim-trailing-whitespace')
     call dein#add('itchyny/lightline.vim')
     call dein#add('spolu/dwm.vim')
+    call dein#add('vim-jp/vimdoc-ja')
     call dein#add('vim-scripts/switch.vim')
     call dein#add('vim-scripts/tComment')
-    call dein#add('vim-scripts/vim-trailing-whitespace')
     call dein#add('Yggdroot/indentLine')
 
     call dein#add('Shougo/deoplete.nvim')
@@ -31,11 +30,6 @@ endif
 
 filetype plugin indent on
 syntax enable
-" }}}
-
-" altercation/vim-colors-solarized {{{
-let g:solarized_termcolors = 256
-let g:solarized_termtrans = 1
 " }}}
 
 " itchyny/lightline.vim {{{

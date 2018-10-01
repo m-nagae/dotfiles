@@ -2,7 +2,7 @@
     name = Masahiro Nagae
     email = two.big.suns@gmail.com
 [core]
-    editor = vim
+    editor = nvim
     pager = less -r
 [color]
     ui = auto
