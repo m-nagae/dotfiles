@@ -6,7 +6,4 @@
 # Install fisherman
 [ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
-# Install NeoBundle
-[ ! -d ~/.vim/bundle ] && curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
-
 echo Done hooks/post-up
