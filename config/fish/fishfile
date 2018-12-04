@@ -1,9 +1,7 @@
-oh-my-fish/theme-agnoster
 0rax/fish-bd
-oh-my-fish/plugin-direnv
 fisherman/done
-fisherman/getopts
-fisherman/humanize_duration
+fisherman/z
+oh-my-fish/plugin-direnv
 oh-my-fish/plugin-peco
 oh-my-fish/plugin-tab
-fisherman/z
+oh-my-fish/theme-agnoster
