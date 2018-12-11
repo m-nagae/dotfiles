@@ -4,4 +4,7 @@
 [ ! -e ~/.ssh ] && ln -s ~/Dropbox/.ssh ~/.ssh
 
 # Install fisherman
-[ ! -e ~/.config/fish/functions/fisher.fish ] && curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
+[ ! -e ~/.config/fish/functions/fisher.fish ] && curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+
+# Install Dein.vim
+[ ! -e ~/.cache/dein ] && curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s ~/.cache/dein
