@@ -1,0 +1,5 @@
+#!/usr/local/bin/fish
+
+[ -e ~/.ssh ] && unlink ~/.ssh
+[ -e ~/.config/fish/functions/fisher.fish ] && fisher self-uninstall
+[ -e ~/.cache/dein ] && rm -rf ~/.cache/dein
