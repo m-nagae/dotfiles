@@ -1,15 +1,7 @@
 # dotfiles
 
-## Install
-
 Requirement:
-  - rcm
-
-Install rcm:
-```
-$ brew tap thoughtbot/formulae
-$ brew install rcm
-```
+  - [rcm](https://github.com/thoughtbot/rcm)
 
 Install dotfiles:
 ```
