@@ -1,6 +1,6 @@
 [user]
-    name = Masahiro Nagae
-    email = two.big.suns@gmail.com
+	name = Masahiro Nagae
+	email = two.big.suns@gmail.com
 [core]
     editor = nvim
     pager = less -r

@@ -10,3 +10,6 @@ end
 
 # asdf
 source /usr/local/opt/asdf/asdf.fish
+
+# Starship
+eval (starship init fish)
