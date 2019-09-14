@@ -1,5 +1,3 @@
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
-
 # direnv
 set -x EDITOR nvim
 
