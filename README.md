@@ -1,6 +1,6 @@
 # dotfiles
 
-Requirement:
+Requirements:
   - [rcm](https://github.com/thoughtbot/rcm)
 
 Install dotfiles:
