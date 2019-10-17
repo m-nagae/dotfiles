@@ -1,5 +1,7 @@
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+
 # direnv
-set -x EDITOR nvim
+set -g EDITOR nvim
 
 # peco
 function fish_user_key_bindings
