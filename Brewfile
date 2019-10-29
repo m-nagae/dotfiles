@@ -13,6 +13,7 @@ brew "automake"
 brew "coreutils"
 brew "libtool"
 brew "libyaml"
+brew "openssl"
 brew "readline"
 brew "asdf"
 brew "gdbm"
@@ -34,7 +35,6 @@ brew "libunistring"
 brew "libidn2"
 brew "unbound"
 brew "gnutls"
-brew "openssl"
 brew "gnupg"
 brew "gradle"
 brew "httpstat"
@@ -92,7 +92,6 @@ cask "google-chrome"
 cask "google-japanese-ime"
 cask "intellij-idea"
 cask "iterm2"
-cask "java"
 cask "keepassxc"
 cask "keepingyouawake"
 cask "musescore"
@@ -105,5 +104,8 @@ cask "vlc"
 cask "wacom-tablet"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
