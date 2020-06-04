@@ -1,6 +1,6 @@
 [user]
-	name = Masahiro Nagae
-	email = two.big.suns@gmail.com
+    name = Masahiro Nagae
+    email = two.big.suns@gmail.com
 [core]
     editor = nvim
     pager = less -r
@@ -15,3 +15,5 @@
     clean = git-lfs clean -- %f
 [alias]
     cleanup = !git branch --merged | egrep -v '(^\\*|master|develop)' | xargs git branch -d
+[pull]
+    rebase = false
