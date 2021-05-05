@@ -1,8 +1,6 @@
 #!/bin/bash
 
 [ ! -e ~/.ssh ] && ln -s ~/Google\ ドライブ/ssh ~/.ssh
-[ ! -e ~/.config/fish/functions/fisher.fish ] && curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-[ ! -e ~/.cache/dein ] && curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s ~/.cache/dein
 
 brew tap Homebrew/bundle
 brew bundle --global
