@@ -6,5 +6,5 @@ brew tap Homebrew/bundle
 brew bundle --global
 brew cu -y
 brew cleanup
-brew bundle cleanup --global
+brew bundle cleanup --global --force
 brew doctor
