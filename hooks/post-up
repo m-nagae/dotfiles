@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ ! -e ~/.ssh ] && ln -s ~/Google\ ドライブ/ssh ~/.ssh
+[ ! -e ~/.ssh ] && ln -s ~/Google\ Drive/マイドライブ/ssh ~/.ssh
 
 brew tap Homebrew/bundle
 brew bundle --global
