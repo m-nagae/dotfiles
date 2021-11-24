@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2021-11-25T04:29:43.650-00:00",
+	"CreationDate" : "2021-11-25T04:56:10.317-00:00",
 	"Sources" : 
 	[
 		{
@@ -49,6 +49,9 @@
 					"PackageIdentifier" : "Twilio.Authy"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
@@ -76,7 +79,13 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
+				},
+				{
 					"PackageIdentifier" : "Apple.iTunes"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
 				}
 			],
 			"SourceDetails" : 
