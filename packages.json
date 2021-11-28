@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2021-11-25T04:56:10.317-00:00",
+	"CreationDate" : "2021-11-28T17:31:35.264-00:00",
 	"Sources" : 
 	[
 		{
@@ -68,6 +68,9 @@
 				},
 				{
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
 					"PackageIdentifier" : "Google.JapaneseIME"
