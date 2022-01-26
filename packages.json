@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2021-12-19T18:47:58.614-00:00",
+	"CreationDate" : "2022-01-27T03:37:58.925-00:00",
 	"Sources" : 
 	[
 		{
@@ -52,9 +52,6 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
 				},
 				{
@@ -73,6 +70,9 @@
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
@@ -83,9 +83,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
-				},
-				{
-					"PackageIdentifier" : "Apple.iTunes"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
