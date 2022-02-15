@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-01-27T03:37:58.925-00:00",
+	"CreationDate" : "2022-02-16T00:24:27.333-00:00",
 	"Sources" : 
 	[
 		{
@@ -23,9 +23,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
@@ -67,10 +64,10 @@
 					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
