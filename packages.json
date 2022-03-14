@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-02-19T00:28:05.668-00:00",
+	"CreationDate" : "2022-03-15T00:20:15.533-00:00",
 	"Sources" : 
 	[
 		{
@@ -67,9 +67,6 @@
 					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
@@ -79,7 +76,13 @@
 					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.Broadcast"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
@@ -97,5 +100,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.1.13405"
+	"WinGetVersion" : "1.2.10271"
 }
