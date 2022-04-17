@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-04-02T06:16:18.344-00:00",
+	"CreationDate" : "2022-04-17T20:52:02.005-00:00",
 	"Sources" : 
 	[
 		{
@@ -49,6 +49,9 @@
 					"PackageIdentifier" : "Twilio.Authy"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
 				},
 				{
@@ -59,9 +62,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
@@ -76,6 +76,9 @@
 					"PackageIdentifier" : "Microsoft.dotnetRuntime.6-x64"
 				},
 				{
+					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
@@ -86,9 +89,6 @@
 				},
 				{
 					"PackageIdentifier" : "Nvidia.Broadcast"
-				},
-				{
-					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
