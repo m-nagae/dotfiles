@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-04-17T20:52:02.005-00:00",
+	"CreationDate" : "2022-04-18T04:03:30.591-00:00",
 	"Sources" : 
 	[
 		{
@@ -86,9 +86,6 @@
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.Broadcast"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
