@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-04-18T04:03:30.591-00:00",
+	"CreationDate" : "2022-04-28T03:42:56.613-00:00",
 	"Sources" : 
 	[
 		{
@@ -67,6 +67,15 @@
 					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
 					"PackageIdentifier" : "Google.Drive"
 				},
 				{
@@ -82,13 +91,7 @@
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
