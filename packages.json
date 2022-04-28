@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-02-19T00:28:05.668-00:00",
+	"CreationDate" : "2022-04-28T03:42:56.613-00:00",
 	"Sources" : 
 	[
 		{
@@ -49,7 +49,7 @@
 					"PackageIdentifier" : "Twilio.Authy"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
@@ -58,7 +58,22 @@
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
 				},
 				{
+					"PackageIdentifier" : "Google.JapaneseIME"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
@@ -67,16 +82,13 @@
 					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.6-x64"
 				},
 				{
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
-				},
-				{
-					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
@@ -97,5 +109,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.1.13405"
+	"WinGetVersion" : "1.2.10271"
 }
