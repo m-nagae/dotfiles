@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-04-28T03:42:56.613-00:00",
+	"CreationDate" : "2022-07-11T23:41:00.946-00:00",
 	"Sources" : 
 	[
 		{
@@ -49,7 +49,13 @@
 					"PackageIdentifier" : "Twilio.Authy"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
@@ -61,19 +67,16 @@
 					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
@@ -82,13 +85,13 @@
 					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.dotnetRuntime.6-x64"
-				},
-				{
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
@@ -97,7 +100,19 @@
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64"
 				}
 			],
 			"SourceDetails" : 
@@ -109,5 +124,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.10271"
+	"WinGetVersion" : "1.2.11601"
 }
