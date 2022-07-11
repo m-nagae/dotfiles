@@ -49,6 +49,7 @@ brew "maven"
 brew "msgpack"
 brew "neovim"
 brew "peco"
+brew "pwgen"
 brew "rcm"
 brew "sbt"
 brew "scala"
@@ -58,7 +59,6 @@ brew "tig"
 brew "wget"
 brew "argon/mas/mas"
 cask "alfred"
-cask "atom"
 cask "authy"
 cask "cheatsheet"
 cask "clip-studio-paint"
@@ -80,10 +80,10 @@ cask "postman"
 cask "visual-studio-code"
 cask "vlc"
 cask "wacom-tablet"
+cask "zoom"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
