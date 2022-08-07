@@ -16,6 +16,5 @@
     clean = git-lfs clean -- %f
 [alias]
     cleanup = !git branch --merged | egrep -v '(^\\*|main|develop)' | xargs git branch -d
-    create-backlog-issue-branch = "!git switch -c `pbpaste | sed -E 's# [^a-zA-Z0-9]*#/#' | sed -E 's/[^a-zA-Z0-9./_]+/-/g'`"
 [pull]
     rebase = false
