@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-08-06T20:48:11.405-00:00",
+	"CreationDate" : "2022-09-25T18:21:44.967-00:00",
 	"Sources" : 
 	[
 		{
@@ -55,9 +55,6 @@
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
-				},
-				{
 					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
@@ -67,28 +64,31 @@
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
 					"PackageIdentifier" : "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86"
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
 				},
 				{
 					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
@@ -97,10 +97,7 @@
 					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
+					"PackageIdentifier" : "Musescore.Musescore"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
