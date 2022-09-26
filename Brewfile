@@ -7,6 +7,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+brew "aom"
 brew "autoconf"
 brew "automake"
 brew "coreutils"
@@ -17,6 +18,7 @@ brew "readline"
 brew "asdf"
 brew "gdbm"
 brew "xz"
+brew "python@3.10"
 brew "awscli"
 brew "gettext"
 brew "libunistring"
@@ -82,3 +84,9 @@ cask "parallels"
 cask "postman"
 cask "visual-studio-code"
 cask "vlc"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
