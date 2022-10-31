@@ -84,7 +84,6 @@ cask "microsoft-edge"
 cask "musescore"
 cask "parallels"
 cask "postman"
-cask "slack"
 cask "visual-studio-code"
 cask "vlc"
 mas "GarageBand", id: 682658836
