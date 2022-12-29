@@ -1,0 +1,19 @@
+# 🐛 :bug: Bugfix（バグフィックス）
+# 👍 :+1: Improve feature（機能改善）
+# ✨ :sparkles: New feature（新機能）
+# 💄 :lipstick: Tweak styles（スタイル微調整）
+# 🌈 :rainbow: Apply styles（スタイル適用）
+# 😒 :unamused: Chore（雑用的な）
+# 🔨 :hammer: Refactoring codes（コードリファクタリング）
+# 🎨 :art: Refactoring styles (スタイル関係のリファクタリング)
+# 🐎 :racehorse: Improve performance（パフォーマンス改善）
+# 📝 :memo: Document（ドキュメント追加・修正等）
+# 🚧 :construction: WIP（作業中）
+# ⚡ :zap: General updates（更新系）
+# 🆙 :up: package updates（依存ライブラリの更新）* cannot show on Backlog
+# 👽 :alien: Translation（翻訳関係）
+# 📈 :chart_with_upwards_trend: Tracking（トラッキング関係）
+# 📇 :card_index: Meta information（メタ情報関係 OGP とか）
+# 🔧 :wrench: Config（コンフィグ関係）
+# 👌 :ok_hand: Code review changes（コードレビュー反映）
+# 🔥 :fire: Removing files/codes（ファイル・コードの削除）
