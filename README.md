@@ -5,6 +5,6 @@ Requirements:
 
 Install dotfiles:
 ```
-$ git clone https://github.com/m-nagae/dotfiles.git ~/.dotfiles
-$ set -x RCRC ~/.dotfiles/rcrc; and rcup
+git clone https://github.com/m-nagae/dotfiles.git ~/.dotfiles
+set -x RCRC ~/.dotfiles/rcrc; and rcup
 ```
