@@ -1,9 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-
-    # asdf
-    source /opt/homebrew/opt/asdf/libexec/asdf.fish
-
+   
     # Homebrew
     eval (/opt/homebrew/bin/brew shellenv)
 
