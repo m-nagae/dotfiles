@@ -82,12 +82,5 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
-vscode "dbaeumer.vscode-eslint"
-vscode "eamodio.gitlens"
-vscode "ionutvmi.path-autocomplete"
-vscode "ms-azuretools.vscode-docker"
 vscode "ms-ceintl.vscode-language-pack-ja"
-vscode "oderwat.indent-rainbow"
-vscode "steoates.autoimport"
-vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
