@@ -8,6 +8,8 @@ brew "little-cms2"
 brew "webp"
 brew "jpeg-xl"
 brew "aom"
+brew "pycparser"
+brew "cffi"
 brew "docutils"
 brew "readline"
 brew "python@3.11"
@@ -16,7 +18,6 @@ brew "gettext"
 brew "glib"
 brew "libunistring"
 brew "libidn2"
-brew "openldap"
 brew "curl"
 brew "libevent"
 brew "unbound", restart_service: true
@@ -80,5 +81,11 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+vscode "christian-kohler.path-intellisense"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "golang.go"
 vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "oderwat.indent-rainbow"
+vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
