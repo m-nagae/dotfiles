@@ -1,128 +1,1424 @@
 {
-	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-07T10:30:57.276-00:00",
-	"Sources" : 
-	[
-		{
-			"Packages" : 
-			[
-				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
-				},
-				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark"
-				},
-				{
-					"PackageIdentifier" : "Discord.Discord"
-				},
-				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop"
-				},
-				{
-					"PackageIdentifier" : "Git.Git"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
-					"PackageIdentifier" : "Piriform.Speccy"
-				},
-				{
-					"PackageIdentifier" : "Valve.Steam"
-				},
-				{
-					"PackageIdentifier" : "TuxGuitar.TuxGuitar"
-				},
-				{
-					"PackageIdentifier" : "VideoLAN.VLC"
-				},
-				{
-					"PackageIdentifier" : "Twilio.Authy"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier" : "Google.Drive"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Musescore.Musescore"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
-					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.GeForceExperience"
-				},
-				{
-					"PackageIdentifier" : "Google.JapaneseIME"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
-				},
-				{
-					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
-				}
-			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://cdn.winget.microsoft.com/cache",
-				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name" : "winget",
-				"Type" : "Microsoft.PreIndexed.Package"
-			}
-		}
-	],
-	"WinGetVersion" : "1.5.1572"
+    "export_version": 2.0,
+    "packages": [
+        {
+            "Id": "Microsoft.AppInstaller",
+            "Name": "\u30a2\u30d7\u30ea \u30a4\u30f3\u30b9\u30c8\u30fc\u30e9\u30fc",
+            "Version": "1.21.3482.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "SomePythonThings.WingetUIStore",
+            "Name": "WingetUI",
+            "Version": "2.2.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "MicrosoftCorporationII.WindowsAppRuntime.Mai\u2026",
+            "Name": "WindowsAppRuntime.Main.1.0",
+            "Version": "4.528.1755.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.WindowsTerminal",
+            "Name": "Windows \u30bf\u30fc\u30df\u30ca\u30eb",
+            "Version": "1.19.10302.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.WinAppRuntime.DDLM.3000.934.1904.0\u2026",
+            "Name": "Windows App Runtime DDLM 3000.934.1904.0-x8",
+            "Version": "3000.934.1904.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.WinAppRuntime.DDLM.3000.934.1904.0\u2026",
+            "Name": "Windows App Runtime DDLM 3000.934.1904.0-x6",
+            "Version": "3000.934.1904.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.WinAppRuntime.DDLM.3.469.1654.0-x8\u2026",
+            "Name": "Windows App Runtime DDLM 3.469.1654.0-x8",
+            "Version": "3.469.1654.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.WinAppRuntime.DDLM.3.469.1654.0-x6\u2026",
+            "Name": "Windows App Runtime DDLM 3.469.1654.0-x6",
+            "Version": "3.469.1654.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "MicrosoftCorporationII.WinAppRuntime.Singlet\u2026",
+            "Name": "WinAppRuntime.Singleton",
+            "Version": "4000.1136.2333.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "MicrosoftCorporationII.WinAppRuntime.Main.1.\u2026",
+            "Name": "WinAppRuntime.Main.1.3",
+            "Version": "3000.934.1904.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "VideoLAN.VLC",
+            "Name": "VLC media player",
+            "Version": "3.0.20",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Valve.Steam",
+            "Name": "Steam",
+            "Version": "2.10.91.91",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Piriform.Speccy",
+            "Name": "Speccy",
+            "Version": "1.32",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "RealtekSemiconductorCorp.RealtekAudioControl\u2026",
+            "Name": "Realtek Audio Control",
+            "Version": "1.10.216.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.PowerToys",
+            "Name": "PowerToys (Preview) x64",
+            "Version": "0.78.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.PowerShell",
+            "Name": "PowerShell 7-x64",
+            "Version": "7.4.1.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "9PM860492SZD",
+            "Name": "PC Manager",
+            "Version": "3.3.14.0",
+            "Source": "Winget: msstore",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Nvidia.GeForceExperience",
+            "Name": "NVIDIA GeForce Experience 3.27.0.120",
+            "Version": "3.27.0.120",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Musescore.Musescore",
+            "Name": "MuseScore 4",
+            "Version": "4.2.1.240230937",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.UI.Xaml.2.8",
+            "Name": "Microsoft.UI.Xaml.2.8",
+            "Version": "8.2310.30001.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.UI.Xaml.2.7",
+            "Name": "Microsoft.UI.Xaml.2.7",
+            "Version": "7.2208.15002.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VisualStudioCode",
+            "Name": "Microsoft Visual Studio Code (User)",
+            "Version": "1.86.2",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCRedist.2015+.x64",
+            "Name": "Microsoft Visual C++ 2015-2022 Redistributa\u2026",
+            "Version": "14.38.33135.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCRedist.2015+.x86",
+            "Name": "Microsoft Visual C++ 2015-2022 Redistributa\u2026",
+            "Version": "14.38.33130.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCLibs.Desktop.14",
+            "Name": "Microsoft Visual C++ 2015 UWP Desktop Runti\u2026",
+            "Version": "14.0.33519.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCRedist.2012.x86",
+            "Name": "Microsoft Visual C++ 2012 Redistributable (\u2026",
+            "Version": "11.0.61030.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCRedist.2008.x86",
+            "Name": "Microsoft Visual C++ 2008 Redistributable -\u2026",
+            "Version": "9.0.30729.6161",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.VCRedist.2005.x86",
+            "Name": "Microsoft Visual C++ 2005 Redistributable",
+            "Version": "8.0.61001",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.OneDrive",
+            "Name": "Microsoft OneDrive",
+            "Version": "24.020.0128.0003",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.EdgeWebView2Runtime",
+            "Name": "Microsoft Edge WebView2 Runtime",
+            "Version": "121.0.2277.128",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.Edge",
+            "Name": "Microsoft Edge",
+            "Version": "121.0.2277.128",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Logitech.GHUB",
+            "Name": "Logicool G HUB",
+            "Version": "2024.1.515200",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "KeePassXCTeam.KeePassXC",
+            "Name": "KeePassXC",
+            "Version": "2.7.6",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Apple.iTunes",
+            "Name": "iTunes",
+            "Version": "12.13.1.3",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Google.JapaneseIME",
+            "Name": "Google \u65e5\u672c\u8a9e\u5165\u529b",
+            "Version": "2.28.5050.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Google.GoogleDrive",
+            "Name": "Google Drive",
+            "Version": "86.0.9.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Google.Chrome",
+            "Name": "Google Chrome",
+            "Version": "122.0.6261.58",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "GitHub.GitHubDesktop",
+            "Name": "GitHub Desktop",
+            "Version": "3.3.8",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Git.Git",
+            "Name": "Git",
+            "Version": "2.43.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Discord.Discord",
+            "Name": "Discord",
+            "Version": "1.0.9032",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Microsoft.DevHome",
+            "Name": "Dev Home (Preview)",
+            "Version": "0.1001.389.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "CrystalDewWorld.CrystalDiskMark",
+            "Name": "CrystalDiskMark 8.0.4c",
+            "Version": "8.0.4.c",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "CrystalDewWorld.CrystalDiskInfo",
+            "Name": "CrystalDiskInfo 9.2.3",
+            "Version": "9.2.3",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        },
+        {
+            "Id": "Bitwarden.Bitwarden",
+            "Name": "Bitwarden",
+            "Version": "2024.2.0",
+            "Source": "Winget: winget",
+            "ManagerName": "Winget",
+            "InstallationOptions": {
+                "SkipHashCheck": false,
+                "InteractiveInstallation": false,
+                "RunAsAdministrator": false,
+                "Architecture": "",
+                "InstallationScope": "",
+                "CustomParameters": [],
+                "PreRelease": false,
+                "CustomInstallLocation": ""
+            },
+            "Updates": {
+                "UpdatesIgnored": false,
+                "IgnoredVersion": ""
+            }
+        }
+    ],
+    "incompatible_packages_info": "Incompatible packages cannot be installed from WingetUI, but they have been listed here for logging purposes.",
+    "incompatible_packages": [
+        {
+            "Id": "Microsoft.GetHelp_8wekyb3d8bbwe",
+            "Name": "\u554f\u3044\u5408\u308f\u305b",
+            "Version": "10.2308.12552.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.LanguageExperiencePackja-JP_8wekyb\u2026",
+            "Name": "\u65e5\u672c\u8a9e \u30ed\u30fc\u30ab\u30eb \u30a8\u30af\u30b9\u30da\u30ea\u30a8\u30f3\u30b9 \u30d1\u30c3\u30af",
+            "Version": "22621.47.192.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.ZuneVideo_8wekyb3d8bbwe",
+            "Name": "\u6620\u753b & \u30c6\u30ec\u30d3",
+            "Version": "10.22091.10061.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.OneConnect_8wekyb3d8bbwe",
+            "Name": "\u30e2\u30d0\u30a4\u30eb\u901a\u4fe1\u30d7\u30e9\u30f3",
+            "Version": "5.2308.2294.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "microsoft.windowscommunicationsapps_8wekyb3d\u2026",
+            "Name": "\u30e1\u30fc\u30eb/\u30ab\u30ec\u30f3\u30c0\u30fc",
+            "Version": "16005.14326.21830.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Paint_8wekyb3d8bbwe",
+            "Name": "\u30da\u30a4\u30f3\u30c8",
+            "Version": "11.2311.30.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe",
+            "Name": "\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af Hub",
+            "Version": "1.2401.20253.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.BingNews_8wekyb3d8bbwe",
+            "Name": "\u30cb\u30e5\u30fc\u30b9",
+            "Version": "4.55.62231.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.HEVCVideoExtension_8wekyb3d8bbwe",
+            "Name": "\u30c7\u30d0\u30a4\u30b9\u88fd\u9020\u5143\u304b\u3089\u306e HEVC \u30d3\u30c7\u30aa\u62e1\u5f35\u6a5f\u80fd",
+            "Version": "2.0.61931.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.YourPhone_8wekyb3d8bbwe",
+            "Name": "\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u9023\u643a",
+            "Version": "1.24012.86.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Xbox.TCUI_8wekyb3d8bbwe",
+            "Name": "Xbox TCUI",
+            "Version": "1.24.10001.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.XboxIdentityProvider_8wekyb3d8bbwe",
+            "Name": "Xbox Identity Provider",
+            "Version": "12.95.3001.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8b\u2026",
+            "Name": "Xbox Game Speech Window",
+            "Version": "1.21.13002.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.XboxGameOverlay_8wekyb3d8bbwe",
+            "Name": "Xbox Game Bar Plugin",
+            "Version": "1.54.4001.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.GamingApp_8wekyb3d8bbwe",
+            "Name": "Xbox",
+            "Version": "2401.1001.10.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "b84472760483823624cd257e00bc32a0",
+            "Name": "X",
+            "Version": "1.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.WindowsAppRuntime.Singleton_8wekyb\u2026",
+            "Name": "WindowsAppRuntime.Singleton",
+            "Version": "3.469.1654.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsAppRuntime.1.2_8wekyb3d8bbwe",
+            "Name": "WindowsAppRuntime.1.2",
+            "Version": "2000.802.31.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsAppRuntime.1.0_8wekyb3d8bbwe",
+            "Name": "WindowsAppRuntime.1.0",
+            "Version": "4.528.1755.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsCalculator_8wekyb3d8bbwe",
+            "Name": "Windows \u96fb\u5353",
+            "Version": "11.2311.0.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+            "Name": "Windows \u30e1\u30e2\u5e33",
+            "Version": "11.2312.18.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.ZuneMusic_8wekyb3d8bbwe",
+            "Name": "Windows \u30e1\u30c7\u30a3\u30a2 \u30d7\u30ec\u30fc\u30e4\u30fc",
+            "Version": "11.2312.7.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsMaps_8wekyb3d8bbwe",
+            "Name": "Windows \u30de\u30c3\u30d7",
+            "Version": "11.2311.1.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.SecHealthUI_8wekyb3d8bbwe",
+            "Name": "Windows \u30bb\u30ad\u30e5\u30ea\u30c6\u30a3",
+            "Version": "1000.25992.9000.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe",
+            "Name": "Windows \u30b5\u30a6\u30f3\u30c9 \u30ec\u30b3\u30fc\u30c0\u30fc",
+            "Version": "11.2312.2.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsAlarms_8wekyb3d8bbwe",
+            "Name": "Windows \u30af\u30ed\u30c3\u30af",
+            "Version": "11.2312.2.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsCamera_8wekyb3d8bbwe",
+            "Name": "Windows \u30ab\u30e1\u30e9",
+            "Version": "2023.2312.3.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Messaging_8wekyb3d8bbwe",
+            "Name": "Windows \u30aa\u30da\u30ec\u30fc\u30bf\u30fc \u30e1\u30c3\u30bb\u30fc\u30b8",
+            "Version": "4.1901.60404.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "MicrosoftWindows.Client.WebExperience_cw5n1h\u2026",
+            "Name": "Windows Web Experience Pack",
+            "Version": "424.1301.140.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+            "Name": "Windows Package Manager Source (winget)",
+            "Version": "2024.219.1133.909",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WebpImageExtension_8wekyb3d8bbwe",
+            "Name": "Webp Image Extensions",
+            "Version": "1.0.62681.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WebMediaExtensions_8wekyb3d8bbwe",
+            "Name": "Web \u30e1\u30c7\u30a3\u30a2\u62e1\u5f35\u6a5f\u80fd",
+            "Version": "1.0.62931.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.VP9VideoExtensions_8wekyb3d8bbwe",
+            "Name": "VP9 Video Extensions",
+            "Version": "1.1.41.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0",
+            "Name": "Spotify Music",
+            "Version": "1.231.1205.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.MicrosoftSolitaireCollection_8weky\u2026",
+            "Name": "Solitaire & Casual Games",
+            "Version": "4.19.1262.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.ScreenSketch_8wekyb3d8bbwe",
+            "Name": "Snipping Tool",
+            "Version": "11.2312.33.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.SkypeApp_kzf8qxf38zg5c",
+            "Name": "Skype",
+            "Version": "15.112.3210.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "{8833FFB6-5B0C-4764-81AA-06DFEED9A476}",
+            "Name": "Realtek Ethernet Controller Driver",
+            "Version": "10.39.212.2020",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "{F132AF7F-7BCA-4EDE-8A7C-958108FE7DBC}",
+            "Name": "Realtek Audio Driver",
+            "Version": "6.0.8931.1",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.RawImageExtension_8wekyb3d8bbwe",
+            "Name": "Raw Image Extension",
+            "Version": "2.3.171.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.PowerToys.PowerRenameContextMenu_8\u2026",
+            "Name": "PowerToys PowerRename Context Menu",
+            "Version": "0.78.0.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.PowerToys.ImageResizerContextMenu_\u2026",
+            "Name": "PowerToys ImageResizer Context Menu",
+            "Version": "0.78.0.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe",
+            "Name": "Power Automate",
+            "Version": "11.2402.223.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.OutlookForWindows_8wekyb3d8bbwe",
+            "Name": "Outlook for Windows",
+            "Version": "1.2024.111.100",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Office.OneNote_8wekyb3d8bbwe",
+            "Name": "OneNote for Windows 10",
+            "Version": "16001.14326.21738.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.OneDriveSync_8wekyb3d8bbwe",
+            "Name": "OneDrive",
+            "Version": "24020.128.3.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Displ\u2026",
+            "Name": "NVIDIA \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9 \u30c9\u30e9\u30a4\u30d0\u30fc 460.89",
+            "Version": "460.89",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "0186-46C3-BAEC-A80AA35AC5B8}_Displ\u2026",
+            "Name": "NVIDIA PhysX \u30b7\u30b9\u30c6\u30e0 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2 9.19.0218 {B2FE1952-",
+            "Version": "9.19.0218",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_HDAud\u2026",
+            "Name": "NVIDIA HD \u30aa\u30fc\u30c7\u30a3\u30aa \u30c9\u30e9\u30a4\u30d0\u30fc 1.3.38.40",
+            "Version": "1.3.38.40",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Frame\u2026",
+            "Name": "NVIDIA FrameView SDK 1.3.8513.32290073",
+            "Version": "1.3.8513.32290073",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj",
+            "Name": "NVIDIA Control Panel",
+            "Version": "8.1.964.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "NortonSecurity_cjtsyd8xszapp",
+            "Name": "Norton Security",
+            "Version": "1.0.0.1",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.BingWeather_8wekyb3d8bbwe",
+            "Name": "MSN \u5929\u6c17",
+            "Version": "4.53.52331.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.MixedReality.Portal_8wekyb3d8bbwe",
+            "Name": "Mixed Reality \u30dd\u30fc\u30bf\u30eb",
+            "Version": "2000.21051.1282.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe",
+            "Name": "Microsoft.WindowsAppRuntime.1.4",
+            "Version": "4000.1136.2333.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe",
+            "Name": "Microsoft.WindowsAppRuntime.1.3",
+            "Version": "3000.934.1904.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe",
+            "Name": "Microsoft \u4ed8\u7b8b",
+            "Version": "6.0.2.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Windows.Photos_8wekyb3d8bbwe",
+            "Name": "Microsoft \u30d5\u30a9\u30c8",
+            "Version": "2024.11010.23003.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Getstarted_8wekyb3d8bbwe",
+            "Name": "Microsoft \u30d2\u30f3\u30c8",
+            "Version": "10.2312.1.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Whiteboard_8wekyb3d8bbwe",
+            "Name": "Microsoft Whiteboard",
+            "Version": "53.21027.539.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.VCLibs.140.00_8wekyb3d8bbwe",
+            "Name": "Microsoft Visual C++ 2015 UWP Runtime Packa\u2026",
+            "Version": "14.0.33519.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "{1F1C2DFC-2D24-3E06-BCB8-725134ADF989}",
+            "Name": "Microsoft Visual C++ 2008 Redistributable -\u2026",
+            "Version": "9.0.30729.4148",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "{9A25302D-30C0-39D9-BD6F-21E6EC160475}",
+            "Name": "Microsoft Visual C++ 2008 Redistributable -\u2026",
+            "Version": "9.0.30729",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "{C6FD611E-7EFE-488C-A0E0-974C09EF6473}",
+            "Name": "Microsoft Update Health Tools",
+            "Version": "5.72.0.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.Todos_8wekyb3d8bbwe",
+            "Name": "Microsoft To Do",
+            "Version": "2.114.7122.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "MicrosoftTeams_8wekyb3d8bbwe",
+            "Name": "Microsoft Teams",
+            "Version": "24033.1005.2701.73\u2026",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.StorePurchaseApp_8wekyb3d8bbwe",
+            "Name": "Microsoft Store \u30a8\u30af\u30b9\u30da\u30ea\u30a8\u30f3\u30b9 \u30db\u30b9\u30c8",
+            "Version": "22312.1401.1.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.WindowsStore_8wekyb3d8bbwe",
+            "Name": "Microsoft Store",
+            "Version": "22401.1401.2.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.People_8wekyb3d8bbwe",
+            "Name": "Microsoft People",
+            "Version": "10.2202.33.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.Services.Store.Engagement_8wekyb3d\u2026",
+            "Name": "Microsoft Engagement Framework",
+            "Version": "10.0.23012.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft Edge Update",
+            "Name": "Microsoft Edge Update",
+            "Version": "1.3.183.29",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe",
+            "Name": "Microsoft Edge",
+            "Version": "121.0.2277.128",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Clipchamp.Clipchamp_yxz26nhyzhsrt",
+            "Name": "Microsoft Clipchamp",
+            "Version": "2.9.1.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe",
+            "Name": "Microsoft 365 (Office)",
+            "Version": "18.2311.1071.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bb\u2026",
+            "Name": "Microsoft .Net Native Runtime Package 2.2",
+            "Version": "2.2.28604.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.NET.Native.Framework.2.2_8wekyb3d8\u2026",
+            "Name": "Microsoft .Net Native Framework Package 2.2",
+            "Version": "2.2.29512.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Steam App1997040",
+            "Name": "MARVEL SNAP (\u30de\u30fc\u30d9\u30eb\u30fb\u30b9\u30ca\u30c3\u30d7)",
+            "Version": "Unknown",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.HEIFImageExtension_8wekyb3d8bbwe",
+            "Name": "HEIF Image Extensions",
+            "Version": "1.0.63001.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe",
+            "Name": "Game Bar",
+            "Version": "6.124.1221.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "InstallShield_{8F14AA37-5193-4A14-BD5B-BDF9B\u2026",
+            "Name": "CyberLink Media Suite 15",
+            "Version": "15.0",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        },
+        {
+            "Id": "Microsoft.549981C3F5F10_8wekyb3d8bbwe",
+            "Name": "Cortana",
+            "Version": "4.2308.1005.0",
+            "Source": "Microsoft Store"
+        },
+        {
+            "Id": "AMD_Chipset_IODrivers",
+            "Name": "AMD Chipset Software",
+            "Version": "2.05.04.352",
+            "Source": "\u30ed\u30fc\u30ab\u30ebPC"
+        }
+    ]
 }
