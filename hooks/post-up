@@ -4,6 +4,7 @@
 
 brew tap Homebrew/bundle
 brew bundle --global
+brew upgrade
 brew cu -y
 brew cleanup
 brew bundle cleanup --global --force
