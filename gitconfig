@@ -21,4 +21,4 @@
 [commit]
     template = /Users/masahiro/.gitmessage.txt
 [init]
-	defaultBranch = main
+    defaultBranch = main
