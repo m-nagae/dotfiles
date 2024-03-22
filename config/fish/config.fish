@@ -5,7 +5,7 @@ if status is-interactive
     eval (/opt/homebrew/bin/brew shellenv)
 
     # Starship
-    eval (starship init fish)
+    starship init fish | source
 
     # peco
     function fish_user_key_bindings
