@@ -11,9 +11,6 @@
 [alias]
     cleanup = !git branch --merged | egrep -v '(^\\*|main|develop)' | xargs git branch -d
 
-[commit]
-    template = ~/.gitmessage.txt
-
 [pull]
     rebase = false
 
