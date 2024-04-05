@@ -1,24 +1,21 @@
 [user]
     name = Masahiro Nagae
     email = two.big.suns@gmail.com
+
 [core]
     editor = nvim
-    pager = less -r
-    excludesFile = /Users/masahiro/.gitignore_global
-[color]
-    ui = auto
+
 [merge]
     tool = vimdiff
-[filter "lfs"]
-    smudge = git-lfs smudge -- %f
-    process = git-lfs filter-process
-    required = true
-    clean = git-lfs clean -- %f
+
 [alias]
     cleanup = !git branch --merged | egrep -v '(^\\*|main|develop)' | xargs git branch -d
+
+[commit]
+    template = ~/.gitmessage.txt
+
 [pull]
     rebase = false
-[commit]
-    template = /Users/masahiro/.gitmessage.txt
+
 [init]
     defaultBranch = main
