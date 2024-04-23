@@ -2,6 +2,7 @@
 
 [ ! -e ~/.ssh ] && ln -s ~/Google\ Drive/マイドライブ/ssh ~/.ssh
 
+git -C ~/.dotfiles pull
 brew tap Homebrew/bundle
 brew bundle --global
 brew upgrade
