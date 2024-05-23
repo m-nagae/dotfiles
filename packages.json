@@ -26,7 +26,7 @@
     {
       "Id": "Bitwarden.Bitwarden",
       "Name": "Bitwarden",
-      "Version": "2024.4.1",
+      "Version": "2024.5.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -47,8 +47,8 @@
     },
     {
       "Id": "CrystalDewWorld.CrystalDiskInfo",
-      "Name": "CrystalDiskInfo 9.2.3",
-      "Version": "9.2.3",
+      "Name": "CrystalDiskInfo 9.3.0",
+      "Version": "9.3.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -92,7 +92,7 @@
     {
       "Id": "Microsoft.DevHome",
       "Name": "Dev Home (Preview)",
-      "Version": "0.1301.477.0",
+      "Version": "0.1401.505.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -114,7 +114,7 @@
     {
       "Id": "Discord.Discord",
       "Name": "Discord",
-      "Version": "1.0.9032",
+      "Version": "1.0.9144",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -136,7 +136,7 @@
     {
       "Id": "Git.Git",
       "Name": "Git",
-      "Version": "2.44.0",
+      "Version": "2.45.1",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -158,7 +158,7 @@
     {
       "Id": "GitHub.GitHubDesktop",
       "Name": "GitHub Desktop",
-      "Version": "3.3.14",
+      "Version": "3.3.18",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -180,7 +180,7 @@
     {
       "Id": "Google.Chrome",
       "Name": "Google Chrome",
-      "Version": "124.0.6367.119",
+      "Version": "125.0.6422.77",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -202,7 +202,7 @@
     {
       "Id": "Google.GoogleDrive",
       "Name": "Google Drive",
-      "Version": "90.0.3.0",
+      "Version": "91.0.2.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -244,31 +244,9 @@
       }
     },
     {
-      "Id": "Apple.iTunes",
-      "Name": "iTunes",
-      "Version": "12.13.1.3",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
       "Id": "KeePassXCTeam.KeePassXC",
       "Name": "KeePassXC",
-      "Version": "2.7.7",
+      "Version": "2.7.8",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -312,7 +290,7 @@
     {
       "Id": "Microsoft.Edge",
       "Name": "Microsoft Edge",
-      "Version": "124.0.2478.67",
+      "Version": "125.0.2535.51",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -334,7 +312,29 @@
     {
       "Id": "Microsoft.EdgeWebView2Runtime",
       "Name": "Microsoft Edge WebView2 Runtime",
-      "Version": "124.0.2478.67",
+      "Version": "125.0.2535.51",
+      "Source": "winget",
+      "ManagerName": "Winget",
+      "InstallationOptions": {
+        "SkipHashCheck": false,
+        "InteractiveInstallation": false,
+        "RunAsAdministrator": false,
+        "Architecture": "",
+        "InstallationScope": "",
+        "CustomParameters": [],
+        "PreRelease": false,
+        "CustomInstallLocation": "",
+        "Version": ""
+      },
+      "Updates": {
+        "UpdatesIgnored": false,
+        "IgnoredVersion": ""
+      }
+    },
+    {
+      "Id": "Microsoft.OneDrive",
+      "Name": "Microsoft OneDrive",
+      "Version": "24.086.0428.0003",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -355,8 +355,8 @@
     },
     {
       "Id": "Microsoft.Teams.Free",
-      "Name": "Microsoft Teams",
-      "Version": "24060.3102.2733.59\u2026",
+      "Name": "Microsoft Teams (personal)",
+      "Version": "24124.2402.2858.56\u2026",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -377,7 +377,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2005.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2005 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2005 Redistributable",
       "Version": "8.0.61001",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -399,7 +399,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2008.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2008 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2008 Redistributable \u2026",
       "Version": "9.0.30729.6161",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -421,7 +421,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2010.x64",
-      "Name": "Microsoft Visual C\u002B\u002B 2010  x64 Redist\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2010  x64 Redistribut\u2026",
       "Version": "10.0.40219",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -443,7 +443,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2010.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2010  x86 Redist\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2010  x86 Redistribut\u2026",
       "Version": "10.0.40219",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -465,7 +465,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2012.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2012 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2012 Redistributable \u2026",
       "Version": "11.0.61030.0",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -487,7 +487,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2012.x64",
-      "Name": "Microsoft Visual C\u002B\u002B 2012 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2012 Redistributable \u2026",
       "Version": "11.0.61030.0",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -509,7 +509,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2013.x64",
-      "Name": "Microsoft Visual C\u002B\u002B 2013 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2013 Redistributable \u2026",
       "Version": "12.0.40664.0",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -531,7 +531,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2013.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2013 Redistribut\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2013 Redistributable \u2026",
       "Version": "12.0.40664.0",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -553,8 +553,8 @@
     },
     {
       "Id": "Microsoft.VCLibs.Desktop.14",
-      "Name": "Microsoft Visual C\u002B\u002B 2015 UWP Desktop\u2026",
-      "Version": "14.0.33519.0",
+      "Name": "Microsoft Visual C\u002B\u002B 2015 UWP Desktop Runt\u2026",
+      "Version": "14.0.33728.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -575,7 +575,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2015\u002B.x64",
-      "Name": "Microsoft Visual C\u002B\u002B 2015-2022 Redist\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2015-2022 Redistribut\u2026",
       "Version": "14.40.33617.1",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -597,7 +597,7 @@
     },
     {
       "Id": "Microsoft.VCRedist.2015\u002B.x86",
-      "Name": "Microsoft Visual C\u002B\u002B 2015-2022 Redist\u2026",
+      "Name": "Microsoft Visual C\u002B\u002B 2015-2022 Redistribut\u2026",
       "Version": "14.40.33617.1",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -620,7 +620,7 @@
     {
       "Id": "Microsoft.VisualStudioCode",
       "Name": "Microsoft Visual Studio Code (User)",
-      "Version": "1.88.1",
+      "Version": "1.89.1",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -641,8 +641,8 @@
     },
     {
       "Id": "Microsoft.DotNet.DesktopRuntime.8",
-      "Name": "Microsoft Windows Desktop Runtime - 8\u2026",
-      "Version": "8.0.4",
+      "Name": "Microsoft Windows Desktop Runtime - 8.0.5 \u2026",
+      "Version": "8.0.5",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -663,7 +663,7 @@
     },
     {
       "Id": "Microsoft.XNARedist",
-      "Name": "Microsoft XNA Framework Redistributab\u2026",
+      "Name": "Microsoft XNA Framework Redistributable 4.\u2026",
       "Version": "4.0.30901.0",
       "Source": "winget",
       "ManagerName": "Winget",
@@ -729,8 +729,8 @@
     },
     {
       "Id": "Musescore.Musescore",
-      "Name": "MuseScore 4",
-      "Version": "4.2.1.240230937",
+      "Name": "MuseScore Studio 4",
+      "Version": "4.3.0.241231433",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -751,8 +751,8 @@
     },
     {
       "Id": "Nvidia.GeForceExperience",
-      "Name": "NVIDIA GeForce Experience 3.27.0.120",
-      "Version": "3.27.0.120",
+      "Name": "NVIDIA GeForce Experience 3.28.0.412",
+      "Version": "3.28.0.412",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -774,7 +774,7 @@
     {
       "Id": "9PM860492SZD",
       "Name": "PC Manager",
-      "Version": "3.3.19.0",
+      "Version": "3.9.5.0",
       "Source": "msstore",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -906,7 +906,7 @@
     {
       "Id": "Microsoft.WindowsTerminal",
       "Name": "Windows \u30BF\u30FC\u30DF\u30CA\u30EB",
-      "Version": "1.19.10821.0",
+      "Version": "1.20.11271.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -928,7 +928,7 @@
     {
       "Id": "Microsoft.AppInstaller",
       "Name": "\u30A2\u30D7\u30EA \u30A4\u30F3\u30B9\u30C8\u30FC\u30E9\u30FC",
-      "Version": "1.22.11132.0",
+      "Version": "1.22.11261.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
