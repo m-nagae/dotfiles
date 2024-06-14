@@ -61,7 +61,6 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
-vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.path-intellisense"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
@@ -73,6 +72,5 @@ vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-vscode-remote.remote-containers"
 vscode "oderwat.indent-rainbow"
 vscode "redhat.vscode-yaml"
-vscode "suhelmakkad.shadcn-ui"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
