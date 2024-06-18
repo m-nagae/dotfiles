@@ -56,7 +56,6 @@ cask "session-manager-plugin"
 cask "slack"
 cask "visual-studio-code"
 cask "vlc"
-cask "zoom"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
