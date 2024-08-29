@@ -26,7 +26,7 @@
     {
       "Id": "Bitwarden.Bitwarden",
       "Name": "Bitwarden",
-      "Version": "2024.8.0",
+      "Version": "2024.8.1",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -48,7 +48,7 @@
     {
       "Id": "CrystalDewWorld.CrystalDiskInfo",
       "Name": "CrystalDiskInfo",
-      "Version": "9.3.2",
+      "Version": "9.4.2",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -114,7 +114,7 @@
     {
       "Id": "Discord.Discord",
       "Name": "Discord",
-      "Version": "1.0.9159",
+      "Version": "1.0.9161",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -182,7 +182,7 @@
     {
       "Id": "Google.Chrome",
       "Name": "Google Chrome",
-      "Version": "128.0.6613.85",
+      "Version": "128.0.6613.114",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -204,7 +204,7 @@
     {
       "Id": "Google.GoogleDrive",
       "Name": "Google Drive",
-      "Version": "95.0.2.0",
+      "Version": "96.0.0.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -358,7 +358,7 @@
     {
       "Id": "Microsoft.OneDrive",
       "Name": "Microsoft OneDrive",
-      "Version": "24.156.0804.0002",
+      "Version": "24.161.0811.0001",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -402,7 +402,7 @@
     {
       "Id": "Microsoft.Teams.Free",
       "Name": "Microsoft Teams",
-      "Version": "24215.1103.3051.6995",
+      "Version": "24193.1904.3031.6050",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -732,7 +732,7 @@
     {
       "Id": "Musescore.Musescore",
       "Name": "MuseScore",
-      "Version": "4.3.2.241630831",
+      "Version": "4.4.0.242390800",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -908,7 +908,7 @@
     {
       "Id": "Microsoft.WindowsTerminal",
       "Name": "Windows Terminal",
-      "Version": "1.20.11781.0",
+      "Version": "1.21.2361.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
