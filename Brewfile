@@ -7,6 +7,7 @@ brew "xz"
 brew "awscli"
 brew "bat"
 brew "gettext"
+brew "glib"
 brew "clang-format"
 brew "coreutils"
 brew "curl"
@@ -15,6 +16,7 @@ brew "fish"
 brew "fzf"
 brew "ghq"
 brew "git"
+brew "harfbuzz"
 brew "httpstat"
 brew "jq"
 brew "libevent"
@@ -38,6 +40,7 @@ brew "pkg-config"
 brew "postgresql@14"
 brew "pwgen"
 brew "rcm"
+brew "rust"
 brew "sbt"
 brew "starship"
 brew "terminal-notifier"
@@ -72,6 +75,7 @@ cask "vlc"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
