@@ -9,7 +9,7 @@
     tool = vimdiff
 
 [alias]
-    cleanup = !git branch --merged | egrep -v '(^\\*|main|develop)' | xargs git branch -d
+    cleanup = !git branch --merged | egrep -v '(^\\*|main|master|develop)' | xargs git branch -d
 
 [pull]
     rebase = false
