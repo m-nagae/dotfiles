@@ -72,16 +72,10 @@ mas "Kindle", id: 302584613
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
-vscode "christian-kohler.path-intellisense"
 vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
 vscode "golang.go"
-vscode "googlecloudtools.cloudcode"
-vscode "ms-azuretools.vscode-docker"
 vscode "ms-ceintl.vscode-language-pack-ja"
-vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
-vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
-vscode "redhat.vscode-yaml"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
