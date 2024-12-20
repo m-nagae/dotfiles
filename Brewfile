@@ -80,10 +80,16 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 vscode "eamodio.gitlens"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "golang.go"
 vscode "hashicorp.terraform"
+vscode "ms-azuretools.vscode-docker"
 vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
+vscode "redhat.vscode-yaml"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
