@@ -75,7 +75,9 @@ mas "Kindle", id: 302584613
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+vscode "christian-kohler.path-intellisense"
 vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "golang.go"
