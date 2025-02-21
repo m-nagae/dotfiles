@@ -71,7 +71,6 @@ cask "skype"
 cask "slack"
 cask "steinberg-download-assistant"
 cask "visual-studio-code"
-cask "vlc"
 mas "iMovie", id: 408981434
 mas "Kindle", id: 302584613
 mas "Xcode", id: 497799835
