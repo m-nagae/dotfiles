@@ -72,12 +72,8 @@ cask "slack"
 cask "steinberg-download-assistant"
 cask "visual-studio-code"
 cask "vlc"
-mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 vscode "christian-kohler.path-intellisense"
 vscode "dsznajder.es7-react-js-snippets"
