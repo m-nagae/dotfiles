@@ -63,8 +63,6 @@ cask "skype"
 cask "slack"
 cask "steinberg-download-assistant"
 cask "visual-studio-code"
-mas "iMovie", id: 408981434
-mas "Kindle", id: 302584613
 mas "Xcode", id: 497799835
 vscode "christian-kohler.path-intellisense"
 vscode "dsznajder.es7-react-js-snippets"
