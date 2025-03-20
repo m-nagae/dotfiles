@@ -1,6 +1,4 @@
 tap "buo/cask-upgrade"
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "vvatanabe/gitb"
 brew "readline"
 brew "xz"
