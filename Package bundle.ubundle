@@ -1,10 +1,10 @@
 {
-  "export_version": 2,
+  "export_version": 2.1,
   "packages": [
     {
       "Id": "9PM860492SZD",
       "Name": "Microsoft PC Manager",
-      "Version": "3.14.14.0",
+      "Version": "3.16.1.0",
       "Source": "msstore",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -16,7 +16,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -26,7 +27,7 @@
     {
       "Id": "Bitwarden.Bitwarden",
       "Name": "Bitwarden",
-      "Version": "2024.12.1",
+      "Version": "2025.2.1",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -38,7 +39,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -48,7 +50,7 @@
     {
       "Id": "CrystalDewWorld.CrystalDiskInfo",
       "Name": "CrystalDiskInfo",
-      "Version": "9.5.0",
+      "Version": "9.6.3",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -60,7 +62,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -82,7 +85,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -92,7 +96,7 @@
     {
       "Id": "Discord.Discord",
       "Name": "Discord",
-      "Version": "1.0.9175",
+      "Version": "1.0.9186",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -106,7 +110,8 @@
         ],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -116,7 +121,7 @@
     {
       "Id": "Git.Git",
       "Name": "Git",
-      "Version": "2.47.1",
+      "Version": "2.49.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -128,7 +133,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -138,7 +144,7 @@
     {
       "Id": "GitHub.GitHubDesktop",
       "Name": "GitHub Desktop",
-      "Version": "3.4.12",
+      "Version": "3.4.18",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -150,7 +156,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -160,7 +167,7 @@
     {
       "Id": "Google.Chrome",
       "Name": "Google Chrome",
-      "Version": "131.0.6778.205",
+      "Version": "134.0.6998.118",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -172,7 +179,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -182,7 +190,7 @@
     {
       "Id": "Google.GoogleDrive",
       "Name": "Google Drive",
-      "Version": "101.0.3.0",
+      "Version": "105.0.1.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -194,7 +202,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -216,51 +225,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
-      "Id": "KeePassXCTeam.KeePassXC",
-      "Name": "KeePassXC",
-      "Version": "2.7.9",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
-      "Id": "Logitech.GHUB",
-      "Name": "Logitech G HUB",
-      "Version": "2024.9.649333",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -270,7 +236,7 @@
     {
       "Id": "Logitech.OptionsPlus",
       "Name": "Logi Options\u002B",
-      "Version": "1.85.655119",
+      "Version": "1.87.684086",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -282,29 +248,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
-      "Id": "MartiCliment.UniGetUI",
-      "Name": "UniGetUI (formerly WingetUI)",
-      "Version": "3.1.5",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -314,7 +259,7 @@
     {
       "Id": "Microsoft.PowerShell",
       "Name": "PowerShell",
-      "Version": "7.4.6.0",
+      "Version": "7.5.0.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -326,7 +271,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -336,7 +282,7 @@
     {
       "Id": "Microsoft.PowerToys",
       "Name": "PowerToys",
-      "Version": "0.87.1",
+      "Version": "0.89.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -348,7 +294,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -358,7 +305,7 @@
     {
       "Id": "Microsoft.VisualStudioCode",
       "Name": "Microsoft Visual Studio Code",
-      "Version": "1.96.2",
+      "Version": "1.98.2",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -370,29 +317,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
-      "Id": "Musescore.Musescore",
-      "Name": "MuseScore",
-      "Version": "4.4.2.242570931",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -402,7 +328,7 @@
     {
       "Id": "Notion.Notion",
       "Name": "Notion",
-      "Version": "4.2.0",
+      "Version": "4.7.0",
       "Source": "winget",
       "ManagerName": "Winget",
       "InstallationOptions": {
@@ -414,7 +340,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -436,7 +363,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
@@ -458,29 +386,8 @@
         "CustomParameters": [],
         "PreRelease": false,
         "CustomInstallLocation": "",
-        "Version": ""
-      },
-      "Updates": {
-        "UpdatesIgnored": false,
-        "IgnoredVersion": ""
-      }
-    },
-    {
-      "Id": "VideoLAN.VLC",
-      "Name": "VLC media player",
-      "Version": "3.0.21",
-      "Source": "winget",
-      "ManagerName": "Winget",
-      "InstallationOptions": {
-        "SkipHashCheck": false,
-        "InteractiveInstallation": false,
-        "RunAsAdministrator": false,
-        "Architecture": "",
-        "InstallationScope": "",
-        "CustomParameters": [],
-        "PreRelease": false,
-        "CustomInstallLocation": "",
-        "Version": ""
+        "Version": "",
+        "SkipMinorUpdates": false
       },
       "Updates": {
         "UpdatesIgnored": false,
