@@ -1,5 +1,4 @@
 tap "buo/cask-upgrade"
-tap "vvatanabe/gitb"
 brew "readline"
 brew "xz"
 brew "awscli"
@@ -60,7 +59,6 @@ cask "session-manager-plugin"
 cask "slack"
 cask "steinberg-download-assistant"
 cask "visual-studio-code"
-mas "Xcode", id: 497799835
 vscode "christian-kohler.path-intellisense"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
