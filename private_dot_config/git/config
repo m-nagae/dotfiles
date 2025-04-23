@@ -1,0 +1,22 @@
+[user]
+  name = Masahiro Nagae
+  email = two.big.suns@gmail.com
+[core]
+  editor = nvim
+[color]
+  ui = auto
+[alias]
+  clean-merged = "!git branch --merged | grep -v '\\*\\|main\\|master|develop' | xargs -n 1 git branch -d"
+[pull]
+  rebase = false
+[merge]
+  tool = vimdiff
+[diff]
+  tool = vimdiff
+[init]
+  defaultBranch = main
+[fetch]
+  prune = true
+[push]
+  default = current
+
