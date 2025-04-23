@@ -1,0 +1,175 @@
+tap "nikitabobko/tap", trusted: true
+tap "pakerwreah/calendr", trusted: true
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Modern, maintained replacement for ls
+brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# GitHub command-line tool
+brew "gh"
+# Remote repository management made easy
+brew "ghq"
+# Distributed revision control system
+brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Curl statistics made simple
+brew "httpstat"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Lazier way to manage everything docker
+brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Terminal Markdown previewer with a GUI-like experience
+brew "leaf-md"
+# Multi-platform support library with a focus on asynchronous I/O
+brew "libuv"
+# Bare libuv bindings for lua
+brew "luv"
+# Mac App Store command-line interface
+brew "mas"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Very basic terminfo library
+brew "unibilium"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Password generator
+brew "pwgen"
+# Library for command-line editing
+brew "readline"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
+# Text interface for Git repositories
+brew "tig"
+# CLI tool that moves files or folder to the trash
+brew "trash"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Stand alone ad blocker
+cask "adguard"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace"
+# Agent orchestration platform
+cask "antigravity"
+# Desktop password and login vault
+cask "bitwarden"
+# Web browser focusing on privacy
+cask "brave-browser"
+cask "pakerwreah/calendr/calendr"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Write, edit, and chat about your code with AI
+cask "cursor"
+# Utilities designed to make common development tasks easier
+cask "devtoys"
+# Voice and text chat software
+cask "discord"
+# Data recovery software
+cask "disk-drill"
+# Window peeking utility app
+cask "dockdoor"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+cask "font-udev-gothic-nf"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Desktop client for GitHub repositories
+cask "github"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Japanese input software
+cask "google-japanese-ime"
+# Free and open-source media player
+cask "iina"
+# Tool for downloading and authorising IK Multimedia software
+cask "ik-product-manager"
+# Menu bar manager
+cask "jordanbaird-ice"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
+# Find shortcuts for any installed application
+cask "keyclu"
+# Software for Logitech devices
+cask "logi-options+"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Audio interface driver for Motu M-Series (M2, M4, M6) audio interfaces
+cask "motu-m-series"
+# Open-source music notation software
+cask "musescore"
+# Administration tool for Native Instruments products
+cask "native-access"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Verify system files structure, run miscellaneous maintenance and more
+cask "onyx"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
+# Collaboration platform for API development
+cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
+# Download manager for Spitfire audio libraries
+cask "spitfire-audio"
+# System monitor for the menu bar
+cask "stats"
+# Tool to download files for Steinberg products
+cask "steinberg-download-assistant"
+# Open-source code editor
+cask "visual-studio-code"
+# Client to install and activate Waves products
+cask "waves-central"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Compressor", id: 6746516157
+mas "Final Cut Pro", id: 1631624924
+mas "Keynote", id: 361285480
+mas "Logic Pro", id: 1615087040
+mas "MainStage", id: 6746637089
+mas "Motion", id: 6746637149
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Pixelmator Pro", id: 6746662575
+mas "Xcode", id: 497799835
+vscode "christian-kohler.path-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "golang.go"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "oderwat.indent-rainbow"
+vscode "saoudrizwan.claude-dev"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vscodevim.vim"
+go "cmd/go"
+go "cmd/gofmt"
+go "golang.org/x/tools/gopls"
