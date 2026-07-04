@@ -60,8 +60,12 @@ brew "starship"
 brew "terminal-notifier"
 # Text interface for Git repositories
 brew "tig"
+# Terminal multiplexer
+brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
+brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Stand alone ad blocker
@@ -70,13 +74,13 @@ cask "adguard"
 cask "nikitabobko/tap/aerospace"
 # Agent orchestration platform
 cask "antigravity"
+# User-friendly GUI app for Homebrew
+cask "applite"
 # Desktop password and login vault
 cask "bitwarden"
 # Web browser focusing on privacy
 cask "brave-browser"
 cask "pakerwreah/calendr/calendr"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Utilities designed to make common development tasks easier
