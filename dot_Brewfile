@@ -28,6 +28,8 @@ brew "ghq"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # Curl statistics made simple
 brew "httpstat"
 # Lightweight and flexible command-line JSON processor
@@ -78,8 +80,6 @@ cask "antigravity"
 cask "applite"
 # Desktop password and login vault
 cask "bitwarden"
-# Web browser focusing on privacy
-cask "brave-browser"
 cask "pakerwreah/calendr/calendr"
 # Write, edit, and chat about your code with AI
 cask "cursor"
@@ -168,9 +168,11 @@ vscode "golang.go"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
+vscode "redhat.vscode-yaml"
 vscode "saoudrizwan.claude-dev"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
