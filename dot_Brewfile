@@ -32,6 +32,8 @@ brew "git-delta"
 brew "herdr"
 # Curl statistics made simple
 brew "httpstat"
+# Git-compatible distributed version control system
+brew "jj"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Lazier way to manage everything docker
