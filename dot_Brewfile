@@ -41,7 +41,7 @@ brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Terminal Markdown previewer with a GUI-like experience
-brew "leaf-md"
+brew "leaf-markdown-viewer"
 # Multi-platform support library with a focus on asynchronous I/O
 brew "libuv"
 # Bare libuv bindings for lua
@@ -74,6 +74,8 @@ brew "zellij"
 brew "zoxide"
 # Stand alone ad blocker
 cask "adguard"
+# VPN for privacy and security
+cask "adguard-vpn"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace"
 # User-friendly GUI app for Homebrew
