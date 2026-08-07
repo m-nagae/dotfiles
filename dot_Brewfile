@@ -137,6 +137,8 @@ cask "raycast"
 cask "scroll-reverser"
 # Download manager for Spitfire audio libraries
 cask "spitfire-audio"
+# Browse and preview sounds from Splice’s entire catalog
+cask "splice"
 # System monitor for the menu bar
 cask "stats"
 # Tool to download files for Steinberg products
