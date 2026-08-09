@@ -103,6 +103,8 @@ cask "github"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Japanese input software
+cask "google-japanese-ime"
 # Free and open-source media player
 cask "iina"
 # Tool for downloading and authorising IK Multimedia software
