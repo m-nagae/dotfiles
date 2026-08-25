@@ -78,12 +78,20 @@ cask "adguard"
 cask "adguard-vpn"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace"
+# Agent orchestration platform
+cask "antigravity"
+# Terminal interface for Antigravity agents
+cask "antigravity-cli"
+# AI Coding Agent IDE
+cask "antigravity-ide"
 # User-friendly GUI app for Homebrew
 cask "applite"
 # Desktop password and login vault
 cask "bitwarden"
 # Menu bar calendar
 cask "calendr"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
@@ -153,6 +161,8 @@ cask "visual-studio-code"
 cask "waves-central"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "AmorphousDiskMark", id: 1168254295
+mas "AmorphousMemoryMark", id: 1495719766
 mas "Compressor", id: 6746516157
 mas "Final Cut Pro", id: 1631624924
 mas "Keynote", id: 361285480
