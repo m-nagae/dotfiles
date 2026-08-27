@@ -90,6 +90,8 @@ cask "applite"
 cask "bitwarden"
 # Menu bar calendar
 cask "calendr"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Utilities designed to make common development tasks easier
