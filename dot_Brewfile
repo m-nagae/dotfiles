@@ -153,6 +153,8 @@ cask "spitfire-audio"
 cask "splice"
 # System monitor for the menu bar
 cask "stats"
+# Video game digital distribution service
+cask "steam"
 # Tool to download files for Steinberg products
 cask "steinberg-download-assistant"
 # Software installer and device manager for Universal Audio products
