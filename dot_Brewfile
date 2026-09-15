@@ -88,8 +88,6 @@ cask "antigravity"
 cask "antigravity-cli"
 # AI Coding Agent IDE
 cask "antigravity-ide"
-# User-friendly GUI app for Homebrew
-cask "applite"
 # Desktop password and login vault
 cask "bitwarden"
 # Menu bar calendar
@@ -119,6 +117,8 @@ cask "google-chrome"
 cask "google-drive"
 # Japanese input software
 cask "google-japanese-ime"
+# Homebrew's official GUI
+cask "homebrew-app"
 # Free and open-source media player
 cask "iina"
 # Tool for downloading and authorising IK Multimedia software
