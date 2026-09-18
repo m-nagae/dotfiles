@@ -123,6 +123,8 @@ cask "homebrew-app"
 cask "iina"
 # Tool for downloading and authorising IK Multimedia software
 cask "ik-product-manager"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Find shortcuts for any installed application
